@@ -29,12 +29,23 @@ body {
 }
 
 #question{
+    font-family:'Courier New', Courier, monospace;
     padding: 0 0 1rem 0;
 }
 
 #answer {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:			15px;
 	padding-bottom: 5px;
+}
+
+#answer a{
+    color: #207cca;
+    text-decoration: none;
+    font-weight:700;
+}
+#answer a:visited{
+    color:#207cca;
 }
 
 .option {
