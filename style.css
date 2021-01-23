@@ -1,7 +1,12 @@
 body {
-    background-image: linear-gradient(45deg, teal, rgba(255,255,255,.1), teal);
     height: 100vh;
     margin: 0;
+
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #window {
@@ -34,8 +39,8 @@ body {
 
 .option {
 	display: block;
-    border: 1px solid green;
-    background-color: #8ab2ff;
+    border: 1px solid #1e5799;
+    background-color: #2989d8;
     font-size: 20px;
     border-radius: 20px;
     width: 100%;
@@ -45,6 +50,7 @@ body {
 }
 .option:hover{
     cursor: pointer;
+    transform: scale(.98);
 }
 .option:focus{
     outline: none;
@@ -58,6 +64,11 @@ body {
     padding: 0px 5px;
 }
 
+#dgb-d{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
 @media only screen and (max-width: 600px) {
     #window {
         width: calc(100% - 50px);
