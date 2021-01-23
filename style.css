@@ -80,6 +80,15 @@ body {
     bottom: 10px;
     left: 10px;
 }
+h2#troubleshooting{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    position:fixed;
+    bottom:5px;
+    left:50%;
+    transform:translate(-50%);
+}
+
 @media only screen and (max-width: 600px) {
     #window {
         width: calc(100% - 50px);
