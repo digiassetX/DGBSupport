@@ -7,6 +7,7 @@
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div id="overlay"></div>
 	<div id="window">
         <div id="main">
             <div id="answer">Loading</div>
@@ -21,10 +22,11 @@
     <div id="shadow" class="shadow"></div>
     <img id="dgb-d" src="/img/dgb.svg" alt="" width="45px">
     <h2 id="troubleshooting">Troubleshooting</h3>
-    <script
+    <!-- <script
             src="https://code.jquery.com/jquery-2.1.4.min.js"
             integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script> -->
+            <script src="jquery-2.1.4.min.js"></script>
     <script>
         let answers={};
         let warnAnswer;
@@ -59,7 +61,10 @@
         //handle option click
         $(document).on('click','.option',function(){
             let key=$(this).attr('key');
-            $("#window").fadeOut(100,() => {$("#window").fadeIn(300, getPage(key))});
+            $("#window").fadeOut(100,() => {
+                getPage(key);
+                $("#window").fadeIn(300, () => $("#window").animate({scrollTop:0}, "smooth"));
+            });
         });
 
         $(document).on('keyup',"#warnConfirm",function(){

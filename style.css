@@ -9,6 +9,21 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+#overlay {
+    height:         inherit;
+    width:          100%;
+    margin:         0;
+    position:       fixed;
+    top:            0;
+    left:           0;
+    z-index:        0;
+    background:     -moz-linear-gradient(-45deg, #7db9e8 0%, #207cca 50%, #2989d8 52%, #1e5799 100%);
+    background:     -webkit-linear-gradient(-45deg, #7db9e8 0%, #207cca 50%, #2989d8 52%, #1e5799 100%);
+    background: linear-gradient(-45deg, #7db9e8 0%, #207cca 50%, #2989d8 52%, #1e5799 100%);
+    opacity: 50%;
+
+}
+
 #window {
     text-align:			center;
     margin: 			0;
@@ -26,7 +41,32 @@ body {
 	
     border-radius:      50px;
     display:            none;
+
+    overflow-y:         auto;
+    overflow-x:         hidden;
+    max-height:         70%;
+    z-index:            2;
+
+    scrollbar-width: thin;
+    scrollbar-color: #2989d8 white;
+    scrollbar-color: linear-gradient(90deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    scrollbar-color: -moz-linear-gradient(90deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
 }
+
+#window::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+#window::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+#window::-webkit-scrollbar-thumb {
+    background-color: #2989d8;
+    background-image: -webkit-linear-gradient(90deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    border-radius: 20px;
+    border: 2px solid white;
+  }
 
 #question{
     font-family:'Courier New', Courier, monospace;
@@ -51,6 +91,12 @@ body {
 #answer li::marker{
     font-size:          1.1rem;
     font-family: Roboto-thin, sans-serif;
+}
+
+#answer li{
+    border-bottom: 1px solid;
+    border-color: rgba(0,0,0,.1);
+    border-radius: 5px;
 }
 .option {
 	display: block;
@@ -129,6 +175,7 @@ h2#troubleshooting{
     bottom:5px;
     left:50%;
     transform:translate(-50%);
+    text-shadow: 3px 5px 5px black;
 }
 
 @font-face {
@@ -140,9 +187,6 @@ h2#troubleshooting{
     #window {
         width: calc(100% - 50px);
         padding: 20px;
-
-        overflow:           scroll;
-        max-height:         70%;
     }
     .option {
         font-size: 15px;
