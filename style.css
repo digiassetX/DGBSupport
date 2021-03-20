@@ -12,18 +12,6 @@ body {
     background:     #002352;
 }
 
-#overlay {
-    height:         inherit;
-    width:          100%;
-    margin:         0;
-    position:       fixed;
-    top:            0;
-    left:           0;
-    z-index:        0;
-    opacity:        50%;
-
-}
-
 #window {
     text-align:			center;
     margin: 			0;
@@ -35,8 +23,6 @@ body {
 
     font-size:			20px;
     font-weight:		bold;
-	
-    /* display:            none; */
 
     overflow-y:         auto;
     overflow-x:         hidden;
@@ -126,6 +112,7 @@ a:hover{
 
 .code {
     font-family:        "Courier New";
+    color:              black;
     background-color: #808080;
     border-style:       solid;
     border-width:       thin;
