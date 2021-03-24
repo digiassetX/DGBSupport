@@ -178,7 +178,7 @@
       }
     },
     "wallet_core_update": {
-      "answer": "<ol><li>Stäng av er Core plånbok</li><li>Ladda ner och installera den nya plånboken ifrån <a href='https://github.com/digibyte/digibyte/releases'>https://github.com/digibyte/digibyte/releases</a></li></ol>",
+      "answer": "<ol><li>Stäng av er Core plånbok</li><li>Ladda ner och installera den nya plånboken ifrån <a href='https://github.com/digibyte-core/digibyte/releases'>https://github.com/digibyte-core/digibyte/releases</a></li></ol>",
       "question": "Har ni använt plånboken sedan den senaste avgreningen/fork? (Juli 2019)",
       "options": {
         "wallet_core_stuck": "Ja",
