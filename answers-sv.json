@@ -1,5 +1,6 @@
 {
-    "start":  {
+  "nodes": {
+    "start": {
       "question": "Vilket problem upplever ni?",
       "options": {
         "wallet": "Problem med min plånbok",
@@ -329,24 +330,19 @@
         "done": "Nej"
       }
     },
-  
-  
-  
     "done": {
       "answer": "Skönt att vi kunde hjälpa till."
     },
     "done_no_help": {
       "warn": {
-        "challenge":"<h1>Varning!</h1>Det finns bedragare överallt.<br>Ta aldrig emot support över private meddelande, även ifall det ser ut som en administratör.<br>Kom ihåg att flera ögon håller alla ärliga.<hr>För att fortsätta, skriv in 'Jag kommer ej ge ut mina nycklar' i fältet nedanför",
+        "challenge": "<h1>Varning!</h1>Det finns bedragare överallt.<br>Ta aldrig emot support över private meddelande, även ifall det ser ut som en administratör.<br>Kom ihåg att flera ögon håller alla ärliga.<hr>För att fortsätta, skriv in 'Jag kommer ej ge ut mina nycklar' i fältet nedanför",
         "answer": "Jag kommer ej ge ut mina nycklar"
       },
       "answer": "Synd att detta ej kunde hjälpa er.  <br>  Vänligen besök <a href='https://t.me/DGBSupport' target='_blank'>DGBSupport</a> på Telegram och beskriv ert bekymmer."
-    },
-
-
-
-    "info" : {
-      "coinomi": "Coinomi är en standardkompatibel, multi-valutaplånbok, tillgänglig för Linux, Mac, Windows, Android & iOS.<br>För att lära er varför vi rekommenderar den, besök Coinomis <a href='https://coinomi.com' target='_blank'>hemsida</a>.",
-      "digiassets": "DigiAssets är ett tillgångsprotokoll ovanpå DigiBytes blockkedja. Det bör ej blandas ihop med DigiByte mynt som är någonting annat. <a href='https://DigiByte.org/#digiassets' target='_blank'>Se mer</a>"
     }
+  },
+  "info" : {
+    "coinomi": "Coinomi är en standardkompatibel, multi-valutaplånbok, tillgänglig för Linux, Mac, Windows, Android & iOS.<br>För att lära er varför vi rekommenderar den, besök Coinomis <a href='https://coinomi.com' target='_blank'>hemsida</a>.",
+    "digiassets": "DigiAssets är ett tillgångsprotokoll ovanpå DigiBytes blockkedja. Det bör ej blandas ihop med DigiByte mynt som är någonting annat. <a href='https://DigiByte.org/#digiassets' target='_blank'>Se mer</a>"
   }
+}
