@@ -6,11 +6,7 @@ let infoAlert = key => {
     html += "<button class='popup-close'>×</button>";
     html += "<p>"+info+"</p>";
     popup.html(html);
-    if ($(window).width() >= 601){
-        popup.css({"max-height":"60%", "max-width":"60%", "padding":"5px"});
-    } else {
-        popup.css({"max-height":"99%", "max-width":"70%", "padding":"5px"});
-    }
+    popup.css({"max-height":"70%", "max-width":"75%", "padding":"5px"});
 }
 
 $(document).on("click", "a.popup-info", function(e) {
