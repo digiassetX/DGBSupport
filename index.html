@@ -34,7 +34,8 @@
             crossorigin="anonymous"></script>
     <script>
         let answers={};
-        let language='en';
+        //let language='en';
+        let language = navigator.language.substr(0,2) || navigator.userLanguage.substr(0,2);
         let warnAnswer;
 
         let lastUrl=window.location.href;
@@ -89,14 +90,29 @@
             let end=url.indexOf('#');
             let key="start";
             if (end>0) key = url.substr(end + 1);
-            if (answers.en[key]===undefined) key=start;      //if page doesn't exist go to start
+            //if (answers.en[key]===undefined) key=start;      //if page doesn't exist go to start
+            if (answers[language][key]===undefined) key=start; //if page doesn't exist go to start
             return key;
         }
 
         //load data and start
-        $.getJSON('answers-en.json').then((data)=>{
+        //$.getJSON('answers-en.json').then((data)=>{
+        $.getJSON(`answers-${language}.json`)
+        .fail(() => {
+            console.log(`Language '${language}' not found. Falling back to 'en'`);
+            language="en";
+            $.getJSON('answers-en.json')
+            .then((data) => {
+                answers.en=data;
+                //load page
+                getPage(getKey());
+            })
+        })
+        .then((data) => {
             //save answers
-            answers.en=data;
+            //answers.en=data;
+            answers[language]=data;
+            $("#language").val(language);
 
             //load page
             getPage(getKey());
