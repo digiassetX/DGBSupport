@@ -1,0 +1,345 @@
+{
+  "start":  {
+    "question": "Con mi por yudabo?",
+    "options": {
+      "wallet": "Problema cu mi cartera",
+      "exchange": "Problema cu un intercambio",
+      "done_no_help": "Otro"
+    }
+  },
+  "exchange": {
+    "question": "Cua intercambio?",
+    "options": {
+      "exchange_poloniex_delist": "Poloniex",
+      "exchange_other": "Otro"
+    }
+  },
+  "exchange_poloniex_delist": {
+    "answer": "Poloniex a exclui DigiByte for di nan lista. Actualmente no tin ningun manera pa recupera bo moneda. Bo unico opcion ta pa busca un abogado.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "exchange_other": {
+    "question": "Con asina mi por yudabo?",
+    "options": {
+      "format_receive": "Adres invalido ora mi kier retira (widthdraw) DGB",
+      "format_send": "Adres invalido ora mi kier deposita DGB",
+      "exchange_cant_help": "Otro"
+    }
+  },
+  "exchange_cant_help": {
+    "answer": "Bo lo mester contact e intercambio pa mas ayudo.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "format_receive": {
+    "answer": "E persona/compania cu ta purbando di manda bo persona e fondo (moneda) ta husando codico anticua. Purba provee nan cu un adres legitimo (un cu ta cuminsa cu e letter D). Si bo cartera actual no tin e opcion aki download e cartera cu yama Coinomi y usa esaki.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "format_send": {
+    "answer": "E cartera cu bo ta usando ta anticua. Nos ta recomenda bo instala e cartera cu yama Coinomi ya cu esaki ta support tur adres den e format moderno.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet": {
+    "question": "E cartera ta DigiByte Go?",
+    "options": {
+      "dead_go": "Si",
+      "wallet_not_go": "No"
+    }
+  },
+  "dead_go": {
+    "answer": "DigiByte Go no ta existi mas.  Tin 2 posibel opcion pa recupera bo monedanan.",
+    "question": "Cua opcion bo lo kier purba pa recupra bo monedanan?",
+    "options": {
+      "recover_digisweep": "Mi ta willing pa paga 1% pa recupera via e opcion facil",
+      "recover_go_coinomi": "Gratis, pero ta un poco mas trabou."
+    }
+  },
+  "recover_digisweep": {
+    "answer": "Pa recupera bo monedanan<br><ol><li>Download y instala Coinomi riba bo aparato electronico</li><li>Bay na <a href='https://DigiSweep.digiassetX.com' target='_blank'>DigiSweep.digiassetX.com</a></li><li>Lesa e prome pagina y primi start</li><li>Marca bo 12 pa 24 palabra mnemonic den e field mnemonic</li><li>Haña bo adres pa recibi bo moneda via coinomi y pone esaki den e Coin Address Field</li><li>Si bo tin algun DigiAssets pone e adres den e Asset Address Field pa nan por manda esaki na</li><li>Primi scan Mnemonic y warda pa esaki termina</li><li>Pa mayoria hende bo lo kier selecta Send Button. Si bo ta un persona tecnico of avansa y bo tin un core wallet bo por click riba Build button.</li></ol>",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "recover_go_coinomi": "Mi kier purba e manera gratis pa recupera Digibyte Go",
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "recover_go_coinomi": {
+    "answer": "<p>Si bo tin algun DigiAssets selecta cu bo kier purba e easy method (manera facil) akibou</p><p>Instala e app Coinomi pa Android / iOS / PC / macOS, links obtenibel na: <a href='https://www.coinomi.com/en/downloads/' target='_blank'>https://www.coinomi.com/en/downloads/</a></p><p>Ora ta cla, marca bo 12-palabra di DigiByte Go recovery phrase. Bo lo wak un slider pa usario avansa (Advanced Settings) cual lo dunabo e opcion BIP39, laga esaki paga tur esten.</p><p>Sigui pa e siguiente pantaya caminda e lo hibabo na password-protect esaki riba bo aparato electronico(telefon), Bo lo por sigui cu e password or hala e slider na bo man robez pa sigui sin password-protection.</p><p>Na e lista pa agrega moneda nobo, primi un biaha riba DigiByte despues primi e \"+\" pa agrega e moneda standard di DigiByte na e cartera. Bo lo wordo hiba bek na e pantaya principal di Coinomi pa DigiByte. No worry cu cu niun moneda no a wordo haya.</p><p>Primi riba e simbolo \"+\" y selecta Add Coins.</p><p>Na e lista di moneda nobo pa agrega, bo por tap un biaha riba DigiByte y un wiel chikito lo aparece na banda drechi di e rij, click riba e wiel.</p><p>Na e lista nobo pa agrega moneda, click un biaha riba DigiByte y un wiel chikito lo aparece na banda drechi di e rij, click e wiel</p><p>Dune un nomber nobo, manera \"DigiByte Go\", y despues marca un custom derivation path:</p><p>M/44H/0H/0H</p><p>click OK, y despues click riba \"+\" na e banda drechi abou. Bo lo wordo manda bek na e pantaya principal di Coinomi pa DigiByte. E biaha akinan e lo haya bo monedanan.</p><p>Pa bo no mester haci esaki mas biaha click riba DigiByte despues recibi pa bo por haya bo prome path adres corecto riba di DigiByte. Click riba e simbolo di copia na banda drechi ariba di bo pantaya. Awor bay bek na e pantaya principal y click riba DigiByte Go y primi Send. Paste bo adres den e field. Selecta Max y primi continue.</p>",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "recover_digisweep": "Bo kier purba e manera facil?",
+      "done": "No"
+    }
+  },
+  "wallet_not_go": {
+    "question": "Cua problema bo tin?",
+    "options": {
+      "wallet_wrong_exchange": "Balor di placa fiat ta incorecto",
+      "wallet_cant_recover": "Mi no por recupera mi cartera",
+      "wallet_cant_send": "Mi no por manda",
+      "wallet_not_synced": "No tur mi fondo ta wordo mustra",
+      "wallet_wont_load": "Cartera ta keda load pa basta rato",
+      "wallet_wont_sync": "Cartera no ta sync",
+      "wallet_core_update": "Upgrading Core Wallet",
+      "done_no_help": "Otro"
+    }
+  },
+  "wallet_wrong_exchange": {
+    "answer": "E prijs ta wordo mustra pa conveniencia y no ta importante. Actualmente e API cu ta mustra e prijs riba DigiByte Mobile no ta den servicio. Si bo no ta husando DigiAssets bo por upgrade bo cartera pa Coinomi cual ta un cartera hopi mas mihor y safe.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_cant_recover": {
+    "question": "Ki tipo di cartera bo tin?",
+    "options": {
+      "wallet_bip39": "Mobile/Hardware(12 to 24 word recovery)",
+      "wallet_core_restore": "Core(wallet.dat file)"
+    }
+  },
+  "wallet_bip39": {
+    "question": "Ki problema bo ta experienciando?",
+    "options": {
+      "wallet_bip39_invalid_word": "Ta bisa cu e palabra ta invalido",
+      "wallet_bip39_standards": "A recupera riba un otro cartera pero ta bisa cu mi balansa ta 0",
+      "done_no_help": "Otro"
+    }
+  },
+  "wallet_bip39_invalid_word": {
+    "answer": "Esaki ta usualmente e resultado di type e palabra incorecto. Por fabor controla si tur palabra ta spel mescos manera esaki <a href='https://github.com/bitcoin/bips/tree/master/bip-0039' target='_blank'>Lista di palabra</a>.  Accento ta importante si e ta presente.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_bip39_standards": {
+    "question": "Cua cartera bo tabata usa anteriormente?",
+    "options": {
+      "wallet_bip39_standards_digibyte_mobile": "DigiByte Mobile",
+      "dead_go": "DigiByte Go",
+      "wallet_bip39_standards_compliant": "Otro"
+    }
+  },
+  "wallet_bip39_standards_digibyte_mobile": {
+    "answer": "Inafortunadamente DigiByte Mobile no ta compatibel segun standard di un cartera. Bo por solamente recupera bo fondo via DigiByte Mobile of usa <a href='https://DigiSweep.digiassetX.com' target='_blank'>DigiSweep</a> pa move bo cartera",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_bip39_standards_compliant": {
+    "answer": "Bo cartera anterior por tabata compatibel segun standard. Si bo cartera nobo no ta wak e fondo purba usa e cartera cu yama Coinomi.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_core_restore": {
+    "question": "Ki operating system bo ta usando?",
+    "options": {
+      "wallet_core_restore_windows": "Windows",
+      "wallet_core_restore_mac": "macOS",
+      "wallet_core_restore_linux": "Linux"
+    }
+  },
+  "wallet_core_restore_windows": {
+    "answer": "Habri file explorer y pone den e address bar type <span class='code'>%appData%\\DigiByte</span> despues copia bo wallet.dat file na e folder akinan.(Si bo a yama e file pa na un nomber diferente, cambia esaki pa wallet.dat)",
+    "question": "Bo mester ayudo pa instala bo cartera nobo?",
+    "options": {
+      "wallet_core_update": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_core_restore_mac": {
+    "answer": "Bay na <span class='code'>~/Library/Application Support/DigiByte/</span> y copia wallet.dat na e folder akinan.(Si bo a yama e file pa na un nomber diferente, cambia esaki pa wallet.dat)<br>Si e files ta scondi, revela esakinan cu e keyboard shortcut <span class='code'>⇧ Shift</span> + <span class='code'>⌘ Command</span> + <span class='code'>.</span>.",
+    "question": "Bo mester ayudo pa instala bo cartera nobo?",
+    "options": {
+      "wallet_core_update": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_core_restore_linux": {
+    "answer": "Bay na <span class='code'>~/.digibyte/</span> y copia wallet.dat na e folder akinan.(Si bo a yama e file pa na un nomber diferente, cambia esaki pa wallet.dat)",
+    "question": "Bo mester ayudo pa instala bo cartera nobo?",
+    "options": {
+      "wallet_core_update": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_core_update": {
+    "answer": "<ol><li>Paga bo core wallet</li><li>Download y instala e cartera nobo na <a href='https://github.com/digibyte-core/digibyte/releases' target='_blank'>https://github.com/digibyte-core/digibyte/releases</a></li></ol>",
+    "question": "Bo cartera tabata den servicio desde e last fork?(July 2019)",
+    "options": {
+      "wallet_core_stuck": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_wont_load": {
+    "question": "Ki cartera bo ta usando?",
+    "options": {
+      "wallet_core_stuck": "Core",
+      "done_no_help": "Otro"
+    }
+  },
+  "wallet_core_stuck": {
+    "answer": "Paga bo core wallet.  Unebes e ta paga sigui e stapnan akibou",
+    "question": "Ki operating system bo ta usando?",
+    "options": {
+      "wallet_core_delete_blocks_windows": "Windows",
+      "wallet_core_delete_blocks_mac": "macOS",
+      "wallet_core_delete_blocks_linux": "Linux"
+    }
+  },
+  "wallet_core_delete_blocks_windows": {
+    "answer": "Habri file explorer y den e address bar type <span class='code'>%appData%\\DigiByte</span> despues delete e blocks and indexes folders si nan ta existi ainda. Instala e cartera nobo y start esaki si bo no a haci esaki ainda.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_core_delete_blocks_mac": {
+    "answer": "Bay na <span class='code'>~/Library/Application Support/DigiByte/</span> despues delete e blocks and indexes folders si nan ta existi ainda.<br>Si e files ta scondi, revela esakinan door di usa e keyboard shortcut <span class='code'>⇧ Shift</span> + <span class='code'>⌘ Command</span> + <span class='code'>.</span>.<br>  Instala e cartera nobo y start esaki si bo no a haci esaki ainda.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "si",
+      "done": "No"
+    }
+  },
+  "wallet_core_delete_blocks_linux": {
+    "answer": "Bay na <span class='code'>~/.digibyte/</span> despues delete e blocks and indexes folders si nan ta existi ainda. Instala e cartera nobo y start esaki si bo no a haci esaki ainda.",
+    "question": "Bo mester ayudo aidna?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_not_synced": {
+    "question": "Bo a purba sync bo cartera?",
+    "options": {
+      "wallet_wont_sync": "No",
+      "wallet_core_less_then_have": "Si: mi tabata usa un core wallet hopi bieuw",
+      "done_no_help": "Si: Otro"
+    }
+  },
+  "wallet_wont_sync": {
+    "question": "Cua cartera bo ta usando?",
+    "options": {
+      "wallet_wont_sync_mobile": "DigiByte Mobile",
+      "wallet_core_update": "Core Older then 7.17.2",
+      "wallet_core_stuck": "Core Version 7.17.2",
+      "done_no_help": "Otro"
+    }
+  },
+  "wallet_wont_sync_mobile": {
+    "answer": "Esaki muy probablemente ta wordo ocasiona door di un problema via budget / freely provided DNS home routers. Bo lo kier haci e siguiente stapnan:\n\nPaga bo Wifi riba bo telefon\nPaga bo telefon\nSende esaki bek SOLAMENTE conecta riba mobile-data manera conexion data  3G / 4G \nSende DigiByte mobile app y warda pa e sync cuminsa\nUnabes e sync cuminsa, bo por switch bek pa WiFi\nBo tin cu haci e stapnan aki den e orden menciona pa ora bo sende e telefon bek, bo telefon lo puntra SETAR/UTS/FLOW of otro ISP pa e DNS corecto. Hopi biaha home routers lo keda provee DNS bieuw na aparatonan electronico manera telefon celular riba WiFi, kiermen cu hasta si bo restart bo telefon ora cu bo WiFi ta sendi, bo lo keda cu e problema.\n\nE lo mester cuminsa sync dentro di algun seconde unabes bo habri e application atrobe.\n\nSi bo ta encontra problema ainda usando e stapnan di troubleshoot akiriba, Bo por tambe bay na Menu -> Settings -> Sync blockchain, y e lo realisa un full re-sync. Esaki no lo afecta bo fondo, pero e lo tuma aproximadamente 20-30 minuut.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_core_less_then_have": {
+    "answer": "Download Coinomi of un otro cartera riba bo telefon y den e debug console run <span class='code'>walletpassphrase yourpassword 60</span> pa unlock bo cartera despues <span class='code'>dumpwallet filename</span>  pa save bo private keys na un file.  Habri e file den un text editor y usa Coinomi's sweep function ofr <a href='https://DigiSweep.digiassetX.com' target='_blank'>https://DigiSweep.digiassetX.com</a> pa sweep bo fondo na bo cartera nobo.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_cant_send": {
+    "question": "Por tin algun motibo dicon esaki ta sosode porfabor kies esun cu ta aplica mihor na bo:",
+    "options": {
+      "wallet_miner": "Mi ta mine na e cartera of ta recibi yen transaccion chikito",
+      "format_send": "Ta bisa e adres cu mi kier manda ta invalido",
+      "wallet_core_update": "Core wallet ta manda pero e recipiente no ta recibi esaki",
+      "wallet_asset_cant_send": "Ta purbando di manda un DigiAsset"
+    }
+  },
+  "wallet_miner": {
+    "question": "Cua cartera bo ta usando?",
+    "options": {
+      "wallet_miner_core": "Core",
+      "wallet_miner_other": "Otro"
+    }
+  },
+  "wallet_miner_core": {
+    "answer": "Muy probablemente bo tin demasiado UTXOs den bo cartera. Bo lo por fix esaki door di manda un montante chikito na bo mes algun biaha of si bo ta bezig ta mine bo lo por bay na e console y type <span class='code'>dumpprivkey miningaddress</span>.  Despues usa <a href='https://DigiSweep.digiassetX.com' target='_blank'>DigiSweep.digiassetX.com</a> pa manda e fondo provee di e private key bek na bo cartera.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_miner_other": {
+    "answer": "Muy probablemente bo cartera no ta funciona mas paso bo tin demasiado UTXOs.  <a href='https://DigiSweep.digiassetX.com' target='_blank'>DigiSweep.digiassetX.com</a> por wordo usa pa manda tur bo fondo na e adres nobo y lo por fix bo problema.",
+    "question": "Esaki a fix bo problema?",
+    "options": {
+      "done": "Si",
+      "wallet_cant_send": "No"
+    }
+  },
+  "wallet_asset_cant_send": {
+    "question": "Bo tin algun DigiByte den bo cartera?",
+    "options": {
+      "wallet_asset_cant_send2": "Si",
+      "wallet_asset_no_funds": "No"
+    }
+  },
+  "wallet_asset_no_funds": {
+    "answer": "Bo lo mester at least 0.001 DGB den bo cartera pa manda DigiAssets",
+    "question": "Bo tin problema ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+  "wallet_asset_cant_send2": {
+    "question": "A adres cu bo ta purbando di manda ta cuminsa cu dgb1?",
+    "options": {
+      "wallet_asset_ask_legacy": "Si",
+      "done_no_help": "No"
+    }
+  },
+  "wallet_asset_ask_legacy": {
+    "answer": "Puntra e persona cu bo ta purba di manda, pa busca un legacy address. E lo wordo haya bou di e QR Code via nan telefon.",
+    "question": "Bo mester ayudo ainda?",
+    "options": {
+      "done_no_help": "Si",
+      "done": "No"
+    }
+  },
+
+
+
+  "done": {
+    "answer": "Ta un placer di por a yudabo."
+  },
+  "done_no_help": {
+    "warn": {
+      "challenge":"<h1>AVISO!</h1>Tin scammers tur caminda.<br>Nunca acpeta ayudo via un mensahe priva hasta si e ta mustra cu e mensahe a bin for di un admin.<br>Remember many eyes keep everyone honest.<hr>Pa continua type 'Mi no lo duna mi yabi' den e box akibou",
+      "answer": "Mi no lo duna mi yabi"
+    },
+    "answer": "Sorry cu bo no por a wordo yuda.  <br>  Please bay na <a href='https://t.me/DGBSupport' target='_blank'>DGBSupport</a> riba telegram y puntra bo pregunta."
+  }
+}
