@@ -342,7 +342,7 @@
 	  }
   },
   "info" : {
-    "coinomi": "Coinomi is a standard compliant, multi-currency wallet, available for Linux, Mac, Windows, Android & iOS.<br>To learn why we recommend it, visit Coinomi's <a href='https://coinomi.com' target='_blank'>website</a>.",
-    "digiassets": "DigiAssets is an asset protocol on-top of the DigiByte blockchain. It should not be confused with DigiByte coins which is something else. <a href='https://DigiByte.org/#digiassets' target='_blank'>See more</a>"
+    "coinomi": "Coinomi ta un cartera compatibel segun standard, cartera multi-currency (diferente moneda), optenibel pa Linux, Mac, Windows, Android & iOS.<br>Pa compronde dicon nos ta recomenda Coinomi, bishita Coinomi's <a href='https://coinomi.com' target='_blank'>website</a>.",
+    "digiassets": "DigiAssets ta un asset protocol cu ta riba DigiByte blockchain. No confundi esaki cu e moneda di DigiByte cual ta algo full diferente. <a href='https://DigiByte.org/#digiassets' target='_blank'>Lesa mas</a>"
   }
 }
