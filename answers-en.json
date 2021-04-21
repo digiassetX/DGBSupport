@@ -56,10 +56,11 @@
       }
     },
     "wallet": {
-      "question": "Is the wallet DigiByte Go?",
+      "question": "What wallet are you using?",
       "options": {
-        "dead_go": "Yes",
-        "wallet_not_go": "No"
+        "dead_go": "DigiByte Go",
+        "wallet_core_update": "DigiByte Core Version 6.16.5 or older",
+        "wallet_not_go": "Other"
       }
     },
     "dead_go": {
@@ -92,7 +93,7 @@
       "options": {
         "wallet_wrong_exchange": "Wrong fiat value shown",
         "wallet_cant_recover": "Can't recover my wallet",
-        "wallet_cant_send": "Can't send",
+        "wallet_cant_send": "Can't send DigiByte",
         "wallet_not_synced": "Not all funds showing",
         "wallet_wont_load": "Wallet takes forever to load",
         "wallet_wont_sync": "Wallet wont sync",
